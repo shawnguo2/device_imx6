@@ -13,6 +13,9 @@
 # limitations under the License.
 #
 
+# Work around mesa build
+ALLOW_MISSING_DEPENDENCIES := true
+
 # ARCH and CPU
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
