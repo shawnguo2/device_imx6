@@ -23,6 +23,9 @@ TARGET_CPU_VARIANT := cortex-a9
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 
+# Need to use 64-bit binder even on 32-bit SoC
+TARGET_USES_64_BIT_BINDER := true
+
 # Pre-optimize for shorter boot time
 WITH_DEXPREOPT ?= true
 
