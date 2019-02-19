@@ -30,7 +30,8 @@ TARGET_USES_64_BIT_BINDER := true
 WITH_DEXPREOPT ?= true
 
 # Bootloader and kernel build
-TARGET_NO_BOOTLOADER := true
+TARGET_NO_BOOTLOADER := false
+TARGET_BOOTLOADER_IS_2ND = true
 TARGET_NO_KERNEL := false
 TARGET_NO_RECOVERY := true
 

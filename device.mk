@@ -15,7 +15,8 @@
 #
 
 PRODUCT_COPY_FILES := \
-    device/nxp/imx6-kernel/zImage-dtb:kernel \
+    device/nxp/imx6-kernel/zImage:kernel \
+    device/nxp/imx6-kernel/imx6q-sabresd.dtb:2ndbootloader \
     $(LOCAL_PATH)/fstab.imx6:root/fstab.imx6 \
     $(LOCAL_PATH)/init.imx6.rc:root/init.imx6.rc \
     $(LOCAL_PATH)/init.imx6.usb.rc:root/init.imx6.usb.rc \
