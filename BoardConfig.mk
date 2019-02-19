@@ -40,8 +40,7 @@ TARGET_BOOTLOADER_BOARD_NAME := imx6
 TARGET_BOARD_PLATFORM := imx6
 
 # Image configuration
-BOARD_KERNEL_BASE := 0x12000000
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x8000000
+BOARD_KERNEL_BASE := 0x10800000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=imx6
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_CMDLINE += printk.devkmsg=on
